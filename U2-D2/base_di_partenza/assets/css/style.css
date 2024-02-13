@@ -4,6 +4,7 @@ body {
   font-family: Poppins, "Helvetica Neue", sans-serif;
   line-height: 1.6;
   padding: 15px;
+  padding-top: 280px;
   background-image: url("../img/sfondo.png");
   background-position: center center;
 }
@@ -18,6 +19,9 @@ hr {
 
 /* HEADER */
 header {
+  position: fixed;
+  top:15px;
+  width: 94%;
   background: rgb(0, 160, 198);
   background: linear-gradient(180deg, rgba(0, 160, 198, 1) 0%, rgba(3, 109, 134, 1) 68%);
   text-align: center;
@@ -101,7 +105,7 @@ section {
   background-color: #e3e3e3;
   padding: 2.2em 1em;
   margin-bottom: 2em;
-  position: relative;
+  
 }
 
 section h2 {
@@ -122,11 +126,9 @@ h1 {
   font-weight: bold;
   letter-spacing: -0.03em;
   /*margin-bottom: 0.7em;*/
-  position: relative;
 }
 
 .underline{
-  position: relative;
   width: 26em;
   opacity: 0.6;
   top: -0.6em;
@@ -180,8 +182,8 @@ h1 + p {
 
   section h2{
     position: absolute;
-    top: -1rem;
-    left: 3rem;
+    top: 134.2rem;
+    left: 5.5rem;
   }
 }
 
@@ -334,7 +336,6 @@ button {
 .bottom-left{
   position: relative;
   left: 25rem;
-  bottom: -36rem;
   width: 50px;
   height: 50px;
   border: outset white;
