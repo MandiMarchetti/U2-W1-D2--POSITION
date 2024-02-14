@@ -343,6 +343,7 @@ button {
   background-color: white;
   opacity: 0.5;
   border-radius: 6px;
+  outline: 2px outset white;
   margin: 10px;
   margin-bottom: 21px;
 }
